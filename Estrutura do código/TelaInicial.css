@@ -14,7 +14,7 @@ body{
 #container{
     
     height: 100%;
-    background-color:whitesmoke;
+    background-color:rgb(255, 246, 246);
     
 }
 
@@ -31,67 +31,91 @@ body{
     
     height: 100%;
     width: 25%;
-    background-color: blue; 
+    background-color: rgb(255, 255, 255); 
   
-}
-
-#btnCadastrar{
-    
-    height: 25%;
-    width: 30%;
-    background-color: snow;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    
-}
-
-#btnLogin{
-    
-    height: 25%;
-    width: 30%;
-    background-color: snow;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    margin: 15px;
-    
 }
 
 #cima-meio{
     
     height: 100%;
     width: 50%;
-    background-color: rgb(3, 255, 36);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-#cima-direita{
+
+#cimadireita{
     
     height: 100%;
     width: 25%;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-  
+     
+}
+
+#meio{
+
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+
+}
+
+#meio-meio{
+
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+
+
+}
+
+#btnCadastrar{
     
+   
+    border-radius: 30px;
+    display: none;
     
 }
 
-#btnMenu{
-    
-    height: 25%;
-    width: 30%;
-    background-color: snow;
-    color: rgb(0, 0, 0);    
-    margin: 20px;
-    border:none;
-    border-radius: 10px;
+#btnHome{
+
     cursor: pointer;
-    
+    color: rgb(0, 0, 0);
+
 }
 
+#btnProdutos{
+
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+
+#btnImc{
+
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+
+#btnSobre{
+
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
 
 #baixo{
 
@@ -101,14 +125,56 @@ body{
 
 }
 
-.imagemCover{
+#logMeio{
 
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    /* background-image:url(https://news.gympass.com/wp-content/uploads/2018/07/escolher-a-melhor-academia.jpg);
-
-    background-size: contain;
-    background-repeat: no-repeat; */
+    height: 50%;
+    width: 60%;
+    background-color: rgb(153, 153, 153);
+    border-radius: 30px;
+    display: none;
 
 }
+
+#cadastroMeio{
+    height: 50%;
+    width: 60%;
+    background-color: rgb(153, 153, 153);
+    border-radius: 30px;
+    display: none;
+    
+}#btnCadastro{
+    height: 40%;
+    width: 22%;
+    font-size:17px ;
+    border: solid 1px  rgb(113, 255, 30); 
+    border-radius: 25px ;
+    background-color: rgb(181, 209, 212);
+    color: rgb(18, 106, 238);
+    cursor: pointer; 
+}#btnCadastro:hover{
+    height: 40%;
+    width: 22%;
+    background-color: rgb(34, 197, 247);
+    color: rgb(0, 255, 255);
+    transform: scale(1); 
+    transition: 1s ;
+
+}
+.btn{
+    height: 40%;
+    width: 22%;
+    font-size:17px ;
+    border: solid 1px  rgb(113, 255, 30); 
+    border-radius: 25px ;
+    background-color: rgb(181, 209, 212);
+    color: rgb(18, 106, 238);
+}.btn:hover{
+    height: 40%;
+    width: 22%;
+    background-color: rgb(34, 197, 247);
+    color: rgb(0, 255, 255);
+    transform: scale(1); 
+    transition: 1s ;
+
+}
+   
